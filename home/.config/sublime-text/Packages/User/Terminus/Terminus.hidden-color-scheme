@@ -1,0 +1,33 @@
+{
+    "name": "Breeze Dark Terminus",
+
+    "variables": {
+        "background": "#232629",
+        "foreground": "#eff0f1",
+
+        "black": "#232629",
+        "red": "#ed1515",
+        "green": "#11d116",
+        "brown": "#f67400",
+        "blue": "#3daee9",
+        "magenta": "#9b59b6",
+        "cyan": "#1abc9c",
+        "white": "#bdc3c7",
+
+        "light_black": "#7f8c8d",
+        "light_red": "#ff3333",
+        "light_green": "#2ecc71",
+        "light_brown": "#fdbc4b",
+        "light_blue": "#67b0e8",
+        "light_magenta": "#be95ff",
+        "light_cyan": "#16a085",
+        "light_white": "#ffffff",
+
+        "caret": "#3daee9"
+    },
+
+    "globals": {
+        "background": "#232628",
+        "foreground": "#eff0f0"
+    }
+}

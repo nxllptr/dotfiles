@@ -1,0 +1,70 @@
+# Colors (Breeze-Dark)
+
+set default-fg                rgba(239,240,241,1)
+set default-bg                rgba(49,54,59,1)
+
+set completion-bg             rgba(61,67,73,1)
+set completion-fg             rgba(239,240,241,1)
+set completion-highlight-bg   rgba(61,174,233,1)
+set completion-highlight-fg   rgba(255,255,255,1)
+set completion-group-bg       rgba(35,38,41,1)
+set completion-group-fg       rgba(239,240,241,1)
+
+set statusbar-fg              rgba(239,240,241,1)
+set statusbar-bg              rgba(35,38,41,1)
+set inputbar-fg               rgba(239,240,241,1)
+set inputbar-bg               rgba(49,54,59,1)
+
+set notification-bg           rgba(49,54,59,1)
+set notification-fg           rgba(239,240,241,1)
+set notification-error-bg     rgba(49,54,59,1)
+set notification-error-fg     rgba(218,68,83,1)
+set notification-warning-bg   rgba(49,54,59,1)
+set notification-warning-fg   rgba(246,116,0,1)
+
+set recolor                   "true"
+set recolor-lightcolor        rgba(49,54,59,1)
+set recolor-darkcolor         rgba(239,240,241,1)
+
+set index-fg                  rgba(239,240,241,1)
+set index-bg                  rgba(49,54,59,1)
+set index-active-fg           rgba(255,255,255,1)
+set index-active-bg           rgba(61,174,233,0.25)
+
+set render-loading-bg         rgba(49,54,59,1)
+set render-loading-fg         rgba(239,240,241,1)
+
+set highlight-color           rgba(61,174,233,0.30)
+set highlight-fg              rgba(239,240,241,1)
+set highlight-active-color    rgba(61,174,233,0.45)
+
+
+# Config
+
+set statusbar-h-padding 10
+set statusbar-v-padding 10
+set selection-clipboard clipboard
+
+# Keymapping 
+
+map u scroll half-up
+map d scroll half-down
+map D toggle_page_mode
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+map p print
+map g goto top
+
+map [fullscreen] u scroll half-up
+map [fullscreen] d scroll half-down
+map [fullscreen] D toggle_page_mode
+map [fullscreen] r reload
+map [fullscreen] R rotate
+map [fullscreen] K zoom in
+map [fullscreen] J zoom out
+map [fullscreen] i recolor
+map [fullscreen] p print
+map [fullscreen] g goto top

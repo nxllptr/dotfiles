@@ -1,0 +1,93 @@
+{
+	"extends": "Default.sublime-theme",
+	"variables":
+	{
+		"base_hue": "hsl(210, 12%, 20%)",
+		"base_tint": "white",
+
+		"ui_bg": "#232629",
+		"text_fg": "#eff0f1",
+		"link_fg": "#3daee9",
+
+		"button_bg": "#31363b",
+
+		"button_label_shadow": "transparent",
+
+		"sidebar_bg": "#1b1e20",
+		"sidebar_row_selected": "#31363b",
+
+		"sidebar_heading": "#eff0f1",
+		"sidebar_heading_shadow": "transparent",
+		"sidebar_label": "#bdc3c7",
+		"sidebar_label_selected": "#eff0f1",
+		"sidebar_label_ignored": "#7f8c8d",
+
+		"sidebar_scroll_bar_bg": "#232629",
+		"sidebar_scroll_bar_puck_bg": "#3b4248",
+
+		"panel_bg": "#232629",
+
+		"progress_bar_fg": "#3daee9",
+
+		"dialog_button_bg": "#3b4248",
+
+		"icon_button_highlight": "#31363b",
+
+		"tool_tip_fg": "#232629",
+
+		"tabset_dark_tint_mod": "color(#eff0f1 a(0.10))",
+		"tabset_dark_bg": "#232629",
+		"tabset_medium_dark_tint_mod": "color(#eff0f1 a(0.08))",
+		"tabset_medium_dark_bg": "#31363b",
+		"tabset_medium_tint_mod": "color(#000000 a(0.20))",
+		"tabset_medium_bg": "#2a2e32",
+		"tabset_light_tint_mod": "color(#000000 a(0.15))",
+		"tabset_light_bg": "#1b1e20",
+
+		"overlay_bg": "#232629",
+
+		"quick_panel_label_color": "#eff0f1",
+		"quick_panel_path_label_color": "#bdc3c7",
+		"quick_panel_matched_label_color": "#3daee9",
+		"quick_panel_matched_path_label_color": "#67b0e8",
+
+		"quick_panel_selected_row_bg": "#31363b",
+		"quick_panel_selected_label_color": "#eff0f1",
+		"quick_panel_selected_path_label_color": "#bdc3c7",
+		"quick_panel_selected_matched_label_color": "#3daee9",
+		"quick_panel_selected_matched_path_label_color": "#67b0e8",
+
+		"status_bar_bg": "#232629",
+		"status_bar_label_shadow": "transparent",
+
+		"file_tab_angled_unselected_dark_tint": "color(#eff0f1 a(0.06))",
+		"file_tab_angled_unselected_medium_dark_tint": "color(#eff0f1 a(0.05))",
+		"file_tab_angled_unselected_medium_tint": "color(#000000 a(0.15))",
+		"file_tab_angled_unselected_light_tint": "color(#000000 a(0.12))",
+
+		"file_tab_angled_unselected_label_color": "#7f8c8d",
+		"file_tab_angled_unselected_label_shadow": "transparent",
+		"file_tab_angled_unselected_medium_label_color": "#bdc3c7",
+		"file_tab_angled_unselected_medium_label_shadow": "transparent",
+		"file_tab_angled_unselected_light_label_color": "#7f8c8d",
+		"file_tab_angled_unselected_light_label_shadow": "transparent",
+
+		// Radio buttons
+		"radio_back": "#232629",
+		"radio_selected": "#3daee9",
+		"radio_border-selected": "#3daee9",
+
+		// Checkbox buttons
+		"checkbox_back": "#232629",
+		"checkbox_selected": "#3daee9",
+		"checkbox_border-selected": "#3daee9"
+	},
+
+	"rules":
+	[
+		{
+			"class": "title_bar",
+			"style": "dark"
+		}
+	]
+}
