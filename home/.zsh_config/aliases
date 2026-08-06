@@ -1,0 +1,19 @@
+# Aliases for ZSH
+
+# 
+alias cls='clear'
+alias ..='cd ..'
+alias :q='exit'
+
+# cp/mv/rm
+alias cp='cp -avi'
+alias mv='mv -vi'
+alias rm='rm -vdI'
+alias mkdir='mkdir -p -v'
+alias rmdir='rm -vdrI'
+
+#
+alias ls='lsd -a --group-directories-first'
+
+# Tmux
+alias tmux-list='tmux list-sessions'

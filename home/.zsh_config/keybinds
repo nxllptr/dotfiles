@@ -1,0 +1,13 @@
+# Keybindings for ZSH
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
+bindkey "\e[3~" delete-char
+bindkey '^H' backward-kill-word
+bindkey '^[[3;5~' kill-word
+
+# For tmux
+bindkey "${terminfo[khome]}" beginning-of-line
+bindkey "${terminfo[kend]}" end-of-line
+bindkey "${terminfo[kdch1]}" delete-char

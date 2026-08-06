@@ -1,30 +1,27 @@
-# Aliases
-alias ls="lsd -a"
-alias cls="clear"
-
-# Keybindings
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word
-bindkey  "^[[H"   beginning-of-line
-bindkey  "^[[F"   end-of-line
-bindkey "\e[3~" delete-char
-bindkey '^H' backward-kill-word
-bindkey '^[[3;5~' kill-word
-
-# For tmux
-bindkey "${terminfo[khome]}" beginning-of-line
-bindkey "${terminfo[kend]}" end-of-line
-bindkey "${terminfo[kdch1]}" delete-char
-
 autoload -U promptinit; promptinit
 
-PURE_PROMPT_SYMBOL="❯"
 zstyle :prompt:pure:prompt:success color cyan
-# PURE_PROMPT_SYMBOL="❯λ"
+zstyle :prompt:pure:prompt:error color blue
+# PURE_PROMPT_SYMBOL="❯"
+# PURE_PROMPT_SYMBOL="%F{black}%K{cyan}󰊠 ❯%k%f%F{cyan}%f"
+PURE_PROMPT_SYMBOL="󰊠 ❯"
 
 prompt pure
 
 # Exec when loading zsh
 
+CONFIG_PATH="${HOME}/.zsh_config"
+
+# Load Configs from CONFIG_PATH
+for file in "${CONFIG_PATH}"/*; do
+	source $file
+done
+
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Command Not Found Handler
+command_not_found_handler() {
+	print -P "zsh: Command %B$1%b not found :("
+	return 127
+}
