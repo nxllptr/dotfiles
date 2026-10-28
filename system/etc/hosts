@@ -1,0 +1,24 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
+127.0.0.1        localhost
+::1              localhost
+
+# Block Facebook
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 m.facebook.com
+0.0.0.0 fb.com
+0.0.0.0 fbcdn.net
+0.0.0.0 www.fbcdn.net
+0.0.0.0 connect.facebook.net
+0.0.0.0 edge-mqtt.facebook.com
+
+# Block Instagram
+0.0.0.0 instagram.com
+0.0.0.0 www.instagram.com
+0.0.0.0 m.instagram.com
+0.0.0.0 cdninstagram.com
+0.0.0.0 www.cdninstagram.com
+0.0.0.0 static.cdninstagram.com
+0.0.0.0 graph.instagram.com
+0.0.0.0 api.instagram.com
